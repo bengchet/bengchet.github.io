@@ -3,122 +3,201 @@
     {
       "maintainer": "Cytron Technologies Sdn Bhd", 
       "help": {
-        "online": "https://forum.cytron.io/"
+        "online": "http://forum.cytron.io"
       }, 
-      "websiteURL": "https://www.cytron.io", 
+      "websiteURL": "http://www.cytron.io", 
       "platforms": [
         {
           "category": "Cytron", 
+          "name": "Cytron AVR Boards", 
+          "url": "https://cytrontechnologies.github.io/downloads/cytron-avr.tar.bz2", 
+          "checksum": "SHA-256:CAAE7636D53238F03F48DC439351C8F9E5DD5386BD79F477F2A8767F63076FC1", 
           "help": {
-            "online": "https://forum.cytron.io/"
+            "online": "http://forum.cytron.io/"
           }, 
-          "url": "https://github.com/CytronTechnologies/MakerUno/releases/download/1.0.0-rc8/cytron-makeruno-1.0.0-rc8.zip", 
-          "checksum": "SHA-256:4a38f4bd9581d7ecbfcaba5f5d6e4ef60bd9963e5d08dfe25fad643db3b3d2c7", 
-          "version": "1.0.0-rc8", 
+          "version": "1.5.4", 
           "architecture": "avr", 
-          "archiveFileName": "cytron-makeruno-1.0.0-rc8.zip", 
+          "archiveFileName": "cytron-avr.tar.bz2", 
           "boards": [
             {
-              "name": "Maker Uno"
-            }
-          ], 
-          "size": "604394", 
-          "toolsDependencies": [], 
-          "name": "Maker Uno"
-        }, 
-        {
-          "category": "Cytron", 
-          "name": "Maker Uno", 
-          "url": "https://github.com/CytronTechnologies/MakerUno/releases/download/1.0.0-rc9/cytron-makeruno-1.0.0-rc9.zip", 
-          "checksum": "SHA-256:02b54119233e17dcc38c52472ee06ee5c22f5e7083ab45095f512fcb8a27ea93", 
-          "help": {
-            "online": "https://forum.cytron.io/"
-          }, 
-          "version": "1.0.0-rc9", 
-          "architecture": "avr", 
-          "archiveFileName": "cytron-makeruno-1.0.0-rc9.zip", 
-          "boards": [
+              "name": "Cuteduino"
+            }, 
             {
-              "name": "Maker Uno"
+              "name": "CT UNO"
             }
           ], 
           "toolsDependencies": [
             {
               "packager": "arduino", 
-              "version": "4.9.2-atmel3.5.4-arduino2", 
+              "version": "4.8.1-arduino5", 
               "name": "avr-gcc"
             }, 
             {
               "packager": "arduino", 
-              "version": "6.3.0-arduino9", 
+              "version": "6.0.1-arduino5", 
               "name": "avrdude"
             }, 
             {
-              "packager": "arduino", 
-              "version": "1.1.1", 
-              "name": "arduinoOTA"
+              "packager": "cytron", 
+              "version": "avr-dummy", 
+              "name": "avr-dummy"
             }
           ], 
-          "size": "604394"
+          "size": "1761873"
         }, 
         {
-          "category": "Cytron", 
+          "category": "Cytron Technologies", 
           "help": {
-            "online": "https://forum.cytron.io/"
+            "online": "http://forum.cytron.com.my/"
           }, 
-          "url": "https://github.com/CytronTechnologies/MakerUno/releases/download/1.0.0-rc6/cytron-makeruno-1.0.0-rc6.zip", 
-          "checksum": "SHA-256:e10bedec9968065bcc663cbc0dbda74b8d0367a45567f8508ede0861e3d1bf63", 
-          "name": "Maker Uno", 
-          "version": "1.0.0-rc6", 
-          "architecture": "avr", 
-          "archiveFileName": "cytron-makeruno-1.0.0-rc6.zip", 
-          "size": "604394", 
-          "toolsDependencies": [
-            {
-              "packager": "arduino", 
-              "version": "4.9.2-atmel3.5.4-arduino2", 
-              "name": "avr-gcc"
-            }, 
-            {
-              "packager": "arduino", 
-              "version": "6.3.0-arduino9", 
-              "name": "avrdude"
-            }, 
-            {
-              "packager": "arduino", 
-              "version": "1.1.1", 
-              "name": "arduinoOTA"
-            }
-          ], 
+          "url": "https://cytrontechnologies.github.io/downloads/cytron-arm.tar.bz2", 
+          "checksum": "SHA-256:B21DFE2EDBCD87E0C9CCCA5D0326F273834D3FDD724C25E1FDB01F300166CE02", 
+          "version": "1.0.0", 
+          "architecture": "arm", 
+          "archiveFileName": "cytron-arm.tar.bz2", 
           "boards": [
             {
-              "name": "Maker Uno"
+              "name": "CT ARM"
+            }
+          ], 
+          "size": "2715643", 
+          "toolsDependencies": [
+            {
+              "packager": "cytron", 
+              "version": "4.8.3-2014q1", 
+              "name": "arm-none-eabi-gcc"
+            }, 
+            {
+              "packager": "cytron", 
+              "version": "1.0.0", 
+              "name": "nulinkburn"
+            }
+          ], 
+          "name": "Cytron ARM Boards"
+        }, 
+        {
+          "category": "Cytron Technologies", 
+          "help": {
+            "online": "http://forum.cytron.com.my/"
+          }, 
+          "url": "https://github.com/CytronTechnologies/CT-ARM/releases/download/1.0.1/cytron-arm-1.0.1.zip", 
+          "checksum": "SHA-256:dde5edab2ba7154ecfd7d4b4f4bcddac46001fb4e60df447a2d24474daba3171", 
+          "version": "1.0.1", 
+          "architecture": "arm", 
+          "archiveFileName": "cytron-arm-1.0.1.zip", 
+          "boards": [
+            {
+              "name": "CT ARM"
+            }
+          ], 
+          "size": "4215796", 
+          "toolsDependencies": [
+            {
+              "packager": "cytron", 
+              "version": "4.8.3-2014q1", 
+              "name": "arm-none-eabi-gcc"
+            }, 
+            {
+              "packager": "cytron", 
+              "version": "1.0.0", 
+              "name": "nulinkburn"
+            }
+          ], 
+          "name": "Cytron ARM Boards"
+        }
+      ], 
+      "tools": [
+        {
+          "version": "avr-dummy", 
+          "name": "avr-dummy", 
+          "systems": [
+            {
+              "url": "https://cytrontechnologies.github.io/downloads/avr-dummy-windows.tar.bz2", 
+              "checksum": "SHA-256:A11DA301CBA13C9F510F8C6E282C3D9C00B560644982370492BFF357EF71C51C", 
+              "host": "i686-mingw32", 
+              "archiveFileName": "avr-dummy-windows.tar.bz2", 
+              "size": "365764"
+            }, 
+            {
+              "url": "https://cytrontechnologies.github.io/downloads/avr-dummy-darwin.tar.bz2", 
+              "checksum": "SHA-256:7E2AD9B4ABE8B3A3F8F9DD1743004B743260ED2DC3398D4002BF28F350406C5D", 
+              "host": "x86_64-apple-darwin", 
+              "archiveFileName": "avr-dummy-darwin.tar.bz2", 
+              "size": "44248"
             }
           ]
         }, 
         {
-          "category": "Cytron", 
-          "help": {
-            "online": "https://forum.cytron.io/"
-          }, 
-          "url": "https://github.com/CytronTechnologies/MakerUno/releases/download/1.0.0-rc7/cytron-makeruno-1.0.0-rc7.zip", 
-          "checksum": "SHA-256:f4e6dd287eb2ce27ac458fe92ed3cdec80d1a769f223172afd01b35503b4713e", 
-          "name": "Maker Uno", 
-          "version": "1.0.0-rc7", 
-          "architecture": "avr", 
-          "archiveFileName": "cytron-makeruno-1.0.0-rc7.zip", 
-          "size": "604394", 
-          "toolsDependencies": [], 
-          "boards": [
+          "version": "4.8.3-2014q1", 
+          "name": "arm-none-eabi-gcc", 
+          "systems": [
             {
-              "name": "Maker Uno"
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz", 
+              "checksum": "SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2", 
+              "host": "i686-mingw32", 
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz", 
+              "size": "84537449"
+            }, 
+            {
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz", 
+              "checksum": "SHA-256:3598ACF21600F17A8E4A4E8E193DC422B894DC09384759B270B2ECE5FACB59C2", 
+              "host": "x86_64-apple-darwin", 
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz", 
+              "size": "52518522"
+            }, 
+            {
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz", 
+              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6", 
+              "host": "x86_64-pc-linux-gnu", 
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz", 
+              "size": "51395093"
+            }, 
+            {
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz", 
+              "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498", 
+              "host": "i686-pc-linux-gnu", 
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz", 
+              "size": "51029223"
+            }
+          ]
+        }, 
+        {
+          "version": "1.0.0", 
+          "name": "nulinkburn", 
+          "systems": [
+            {
+              "url": "https://cytrontechnologies.github.io/downloads/nulinkburn-win32.tar.bz2", 
+              "checksum": "SHA-256:E1D0BDF21F6B9A709783F49D7691ED0FF387B4AD457E7A6D5A86772AA9CC1F2C", 
+              "host": "i686-mingw32", 
+              "archiveFileName": "nulinkburn.tar.bz2", 
+              "size": "469963"
+            }, 
+            {
+              "url": "https://cytrontechnologies.github.io/downloads/nulinkburn-mac.tar.bz2", 
+              "checksum": "SHA-256:40D02E45552208D7D594C41C5EC2031BFCBCA182BDFE0D1607484A886303F574", 
+              "host": "x86_64-apple-darwin", 
+              "archiveFileName": "nulinkburn-mac.tar.bz2", 
+              "size": "13399"
+            }, 
+            {
+              "url": "https://cytrontechnologies.github.io/downloads/nulinkburn-linux64.tar.gz", 
+              "checksum": "SHA-256:085336DFC78011077342DC90374D175C20FA77B87057783C5809F2BE991F303F", 
+              "host": "x86_64-pc-linux-gnu", 
+              "archiveFileName": "nulinkburn-linux64.tar.gz", 
+              "size": "8264"
+            }, 
+            {
+              "url": "https://cytrontechnologies.github.io/downloads/nulinkburn-linux32.tar.gz", 
+              "checksum": "SHA-256:3E9CF27C12EA9D641C97AE2B706DB8430748C9DEFD991BD2968BA89CDA795F40", 
+              "host": "i686-pc-linux-gnu", 
+              "archiveFileName": "nulinkburn-linux32.tar.gz", 
+              "size": "7604"
             }
           ]
         }
       ], 
-      "tools": [], 
       "email": "support@cytron.io", 
-      "name": "makeruno"
+      "name": "cytron"
     }
   ]
 }

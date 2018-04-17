@@ -14,17 +14,10 @@
           }, 
           "url": "https://cytrontechnologies.github.io/downloads/cytron-avr.tar.bz2", 
           "checksum": "SHA-256:CAAE7636D53238F03F48DC439351C8F9E5DD5386BD79F477F2A8767F63076FC1", 
+          "name": "Cytron AVR Boards", 
           "version": "1.5.4", 
           "architecture": "avr", 
           "archiveFileName": "cytron-avr.tar.bz2", 
-          "boards": [
-            {
-              "name": "Cuteduino"
-            }, 
-            {
-              "name": "CT UNO"
-            }
-          ], 
           "size": "1761873", 
           "toolsDependencies": [
             {
@@ -43,13 +36,20 @@
               "name": "avr-dummy"
             }
           ], 
-          "name": "Cytron AVR Boards"
+          "boards": [
+            {
+              "name": "Cuteduino"
+            }, 
+            {
+              "name": "CT UNO"
+            }
+          ]
         }, 
         {
           "category": "Cytron Technologies", 
           "name": "Cytron ARM Boards", 
           "url": "https://github.com/bengchet/CT-ARM/releases/download/1.1.0/cytron-arm-1.1.0.zip", 
-          "checksum": "SHA-256:cd01f5fbc44634d044d8152a431db9386881b387fb164b2e717fed1fbdfb8b66", 
+          "checksum": "SHA-256:ba26523e19ab0f2281662e17194e64b4a3992c72ca6853ff3fce37e7a22586c3", 
           "help": {
             "online": "https://bengchet.github.io/CT-ARM/"
           }, 
@@ -82,10 +82,14 @@
           }, 
           "url": "https://cytrontechnologies.github.io/downloads/cytron-arm.tar.bz2", 
           "checksum": "SHA-256:B21DFE2EDBCD87E0C9CCCA5D0326F273834D3FDD724C25E1FDB01F300166CE02", 
-          "name": "Cytron ARM Boards", 
           "version": "1.0.0", 
           "architecture": "arm", 
           "archiveFileName": "cytron-arm.tar.bz2", 
+          "boards": [
+            {
+              "name": "CT ARM"
+            }
+          ], 
           "size": "2715643", 
           "toolsDependencies": [
             {
@@ -99,11 +103,7 @@
               "name": "nulinkburn"
             }
           ], 
-          "boards": [
-            {
-              "name": "CT ARM"
-            }
-          ]
+          "name": "Cytron ARM Boards"
         }, 
         {
           "category": "Cytron Technologies", 
@@ -112,10 +112,14 @@
           }, 
           "url": "https://github.com/CytronTechnologies/CT-ARM/releases/download/1.0.1/cytron-arm-1.0.1.zip", 
           "checksum": "SHA-256:dde5edab2ba7154ecfd7d4b4f4bcddac46001fb4e60df447a2d24474daba3171", 
-          "name": "Cytron ARM Boards", 
           "version": "1.0.1", 
           "architecture": "arm", 
           "archiveFileName": "cytron-arm-1.0.1.zip", 
+          "boards": [
+            {
+              "name": "CT ARM"
+            }
+          ], 
           "size": "4215796", 
           "toolsDependencies": [
             {
@@ -129,11 +133,7 @@
               "name": "nulinkburn"
             }
           ], 
-          "boards": [
-            {
-              "name": "CT ARM"
-            }
-          ]
+          "name": "Cytron ARM Boards"
         }
       ], 
       "tools": [

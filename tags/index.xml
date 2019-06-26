@@ -1,33 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My Little Tech Blog</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on My Little Tech Blog</description>
+    <title>Tags on Ng Beng Chet</title>
+    <link>https://example.org/tags/</link>
+    <description>Recent content in Tags on Ng Beng Chet</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 04 Apr 2018 02:56:47 +0800</lastBuildDate>
+    <language>en-us</language>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hugo</title>
-      <link>/tags/hugo/</link>
-      <pubDate>Wed, 04 Apr 2018 02:56:47 +0800</pubDate>
-      
-      <guid>/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Website</title>
-      <link>/tags/website/</link>
-      <pubDate>Wed, 04 Apr 2018 02:56:47 +0800</pubDate>
-      
-      <guid>/tags/website/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

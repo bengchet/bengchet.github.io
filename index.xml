@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ng Beng Chet</title>
-    <link>https://example.org/</link>
+    <link>https://bengchet.github.io/</link>
     <description>Recent content on Ng Beng Chet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Nov 2016 19:41:01 +0530</lastBuildDate>
     
-	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bengchet.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IoT LoRa Demo</title>
-      <link>https://example.org/portfolio/work2/</link>
+      <link>https://bengchet.github.io/portfolio/work2/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
-      <guid>https://example.org/portfolio/work2/</guid>
+      <guid>https://bengchet.github.io/portfolio/work2/</guid>
       <description>LoRa Demo for Cytron Technologies Sdn Bhd</description>
     </item>
     
     <item>
       <title>Dyogahub</title>
-      <link>https://example.org/portfolio/work1/</link>
+      <link>https://bengchet.github.io/portfolio/work1/</link>
       <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
       
-      <guid>https://example.org/portfolio/work1/</guid>
+      <guid>https://bengchet.github.io/portfolio/work1/</guid>
       <description>Yoga Website based in KL, Malaysia</description>
     </item>
     
